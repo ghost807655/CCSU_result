@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
       </Head>
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      {/* <TurnstileWrapper>  */}
+      <TurnstileWrapper> 
           {children}
-        {/* </TurnstileWrapper> */}
+        </TurnstileWrapper>
       </body>
     </html>
   );
