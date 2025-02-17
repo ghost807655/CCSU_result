@@ -1,0 +1,1481 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #1F5394;
+    --secondary-color: #e7f1fd;
+  }
+  body{
+    /* position: relative; */
+    font-family: "Roboto"; 
+  }
+
+  .ContentButton
+  {
+    color: #fff !important; 
+    background-color: #0fb788;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400; 
+    padding: 3px 12px;  
+  }
+
+.marksheetNAG {
+    background-image: url(/Content/Img/CommonMks.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 1496px;
+    position: relative;
+}
+
+.marksheetBACK {
+    background-image: url(/Content/Img/bgBACK.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 1483px;
+    position: relative;
+}
+
+.marksheetNAGPG {
+    background-image: url(/Content/Img/CommonMks.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 1496px;
+    position: relative;
+}
+
+.marksheetNonNEP {
+    background-image: url(/Content/Img/CommonMks.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 1483px;
+    position: relative;
+}
+
+.noteNEP {
+    position: absolute;
+    bottom: 55px;
+    left: 8px;
+    font-weight: bold;
+    text-align: left;
+    font-size:14px;
+}
+
+.year {
+    position: absolute;
+    top: 135px;
+    left: 478px;
+    font-weight: bold;
+}
+.BPR {
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    font-weight: bold;
+}
+.sess {
+    position: absolute;
+    top: 104px;
+    left: 892px;
+    font-weight: bold;
+}
+
+.dataCNAG {
+    position: absolute;
+    top: 213px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.data2NAG {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.RollCNAG {
+    position: relative;
+    left: 530px;
+}
+
+.EnrollCNAG {
+    position: relative;
+    left: 555px;
+}
+
+.yearNon {
+    position: absolute;
+    top: 130px;
+    left: 420px;
+    font-weight: bold;
+}
+
+.sessNon {
+    position: absolute;
+    top: 97px;
+    left: 890px;
+    font-weight: bold;
+}
+
+.dataCNON {
+    position: absolute;
+    top: 208px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.data2NON {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.RollCNON {
+    position: relative;
+    left: 530px;
+}
+
+.EnrollCNON {
+    position: relative;
+    left: 550px;
+}
+
+.resDateNon {
+    position: absolute;
+    bottom: 3px;
+    left: 8px;
+    font-weight: bold;
+}
+
+.dataNon {
+    position: absolute;
+    top: 208px;
+    left: 233px;
+    font-weight: bold;
+}
+.data1Non {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+.sub-dataNon {
+    position: absolute;
+    left: 590px;
+}
+.QClassNon {
+    font-size:12px;
+    line-height:1;
+}
+.mark-tableNon {
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    width: 92%;
+}
+
+.mark-table2Non {
+    position: absolute;
+    bottom: 236px;
+    left: 110px;
+    width: 82%;
+}
+
+.yearPG {
+    position: absolute;
+    top: 120px;
+    left: 520px;
+    font-weight: bold;
+}
+
+.sessPG {
+    position: absolute;
+    top: 90px;
+    left: 910px;
+    font-weight: bold;
+}
+
+.resDate {
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.resDatePG {
+    position: absolute;
+    bottom: -9px;
+    left: 8px;
+    font-weight: bold;
+}
+.data
+{
+  position: absolute;
+  top: 213px;
+  left: 229px;
+  font-weight: bold;
+
+}
+
+.dataCPG {
+    position: absolute;
+    top: 202px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.data2 {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 15px;
+    font-style:italic;
+}
+.RollCPG {
+    position: relative;
+    left: 555px;
+}
+.EnrollCPG {
+    position: relative;
+    left: 580px;
+}
+.dataPG {
+    position: absolute;
+    top: 202px;
+    left: 249px;
+    font-weight: bold;
+}
+
+.data1 {
+    margin-top: 8px;
+    text-align: left;
+    font-size:  13px;
+}
+
+.sub-data
+{
+  position: absolute;
+    left: 584px;
+}
+
+.sub-dataPG {
+    position: absolute;
+    left: 584px;
+}
+
+.mark-table {
+    position: absolute;
+    top: 370px;
+    left: 110px;
+    width: 82%;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+.mark-tablePG {
+    position: absolute;
+    top: 370px;
+    left: 53px;
+    width: 90%;
+}
+
+.mark-table2 {
+    position: absolute;
+    bottom: 236px;
+    left: 110px;
+    width: 82%;
+    font-size:13px;
+}
+.mark-table2PG {
+    position: absolute;
+    bottom: 285px;
+    left: 110px !important;
+    width: 82% !important;
+}
+.crdvalue {
+    position: absolute;
+    bottom: 165px;
+    left: 219px;
+    font-weight: bold;
+}
+
+.dtn {
+    position: absolute;
+    bottom: 170px;
+    left: 219px;
+    font-weight: bold;
+}
+
+.fresdet {
+    position: absolute;
+    bottom: 299px;
+    left: 219px;
+    font-weight: bold;
+}
+
+#CaptchaImage {
+    height: 36px;
+}
+
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+       
+    table {
+        border-collapse: collapse;
+        transform: scale(0.95);
+        transform-origin: top left;
+    }
+
+    table th, table td {
+        border: 1px solid black; /* Adds a solid border */
+        padding: 4px; /* Adds some padding for better readability */
+        font-weight:bold;
+    }
+
+    .mark-table th {
+        height: 30px; /* Adjust the value as needed */
+        padding: 5px; /* Reduce padding if necessary */
+        line-height: 1; /* Adjust line height */
+    }
+
+    table th {
+        font-size:12px !important;
+    }
+
+    .marksheetNAG {
+        background-image: url(/Content/Img/CommonMks.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1000px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-size: 105%; /* Reduce width to 90% of the container */
+    }
+
+    .marksheetBACK {
+        background-image: url(/Content/Img/bgBACK.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1000px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-size: 105%; /* Reduce width to 90% of the container */
+    }
+
+    .mark-table {
+        position: absolute;
+        top: 240px;
+        left: 16px !important;
+        width: 100% !important;
+        font-family: Arial;
+        font-size: 8px;
+        padding: 0px 0px;
+        line-height: 3.0;
+    }
+    .nagPrint {
+        width: 105% !important;
+        text-align: center;
+        font-size: 12px;
+    }
+    .nonPrint {
+        width: 105% !important;
+        text-align: center;
+        font-size: 12px;
+    }
+    .mark-table2 {
+        position: absolute;
+        bottom: 140px;
+        left: 20px !important;
+        width: 100% !important;
+        font-family: Arial;
+        font-size: 8px;
+        padding: 3px 2px;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .resDate {
+        position: absolute;
+        bottom: 0px;
+        left: 5px;
+        font-weight: bold;
+    }
+
+    .mark-tablePG {
+        position: absolute;
+        top: 250px;
+        left: 25px !important;
+        width: 95% !important;
+        font-family: Arial;
+        font-size: 8px;
+        padding: 3px 2px;
+        line-height:2.0;
+    }
+
+    .pgPrint {
+        width: 105% !important;
+        text-align: center;
+        font-size: 12px;
+    }
+    .mark-table2PG {
+        position: absolute;
+        bottom: 155px;
+        left: 25px !important;
+        width: 95% !important;
+        font-family: Arial;
+        font-size: 12px;
+        padding: 3px 2px;
+        text-align: center;
+    }
+
+    .yearPG {
+        position: absolute;
+        top: 80px;
+        left: 270px;
+        font-weight: bold;
+    }
+
+    .sessPG {
+        position: absolute;
+        top: 60px;
+        left: 590px;
+        font-weight: bold;
+    }
+
+    .marksheetNAGPG {
+        background-image: url(/Content/Img/CommonMks.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 1000px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-size: 105%; /* Reduce width to 90% of the container */
+    }
+    .noteNEP {
+        position: absolute;
+        bottom: 40px;
+        left: 8px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 10px;
+        line-height:1.1;
+    }
+    .resDatePG {
+        position: absolute;
+        bottom: 0px;
+        left: 5px;
+        font-weight: bold;
+    }
+    .data {
+        position: absolute;
+        top: 140px;
+        left: 175px;
+        font-weight: bold;
+    }
+
+    .dataCNAG {
+        position: absolute;
+        top: 133px;
+        left: 5px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .data2NAG {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .RollCNAG {
+        position: relative;
+        left: 328px;
+    }
+
+    .EnrollCNAG {
+        position: relative;
+        left: 352px;
+    }
+
+    .dataPG {
+        position: absolute;
+        top: 140px;
+        left: 175px;
+        font-weight: bold;
+    }
+
+    .sub-dataPG {
+        position: absolute;
+        left: 425px;
+    }
+
+    .dataCPG {
+        position: absolute;
+        top: 133px;
+        left: 5px;
+        font-weight: bold;
+        line-height:1.2;
+    }
+
+    .data2 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .RollCPG {
+        position: relative;
+        left: 328px;
+    }
+
+    .EnrollCPG {
+        position: relative;
+        left: 350px;
+    }
+
+    .crdvalue {
+        position: absolute;
+        bottom: 100px;
+        left: 170px;
+        font-size:10px;
+    }
+
+    .data1 {
+        margin-top: -2px;
+        text-align: left;
+        font-size : 13px;   
+    }
+
+    .sub-data {
+        position: absolute;
+        left: 430px;
+    }
+
+    
+    .year {
+        position: absolute;
+        top: 78px;
+        left: 250px;
+        font-weight: bold;
+    }
+
+    .sess {
+        position: absolute;
+        top: 60px;
+        left: 600px;
+        font-weight: bold;
+    }
+
+    .marksheetNonNEP {
+        background-image: url(/Content/Img/CommonMks.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1020px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-size: 105%; /* Reduce width to 90% of the container */
+    }
+
+    .yearNon {
+        position: absolute;
+        top: 95px;
+        left: 230px;
+        font-weight: bold;
+    }
+
+    .sessNon {
+        position: absolute;
+        top: 68px;
+        left: 600px;
+        font-weight: bold;
+    }
+
+    .dataCNON {
+        position: absolute;
+        top: 178px;
+        left: 5px;
+        font-weight: bold;
+        line-height: 1.4;
+    }
+
+    .data2NON {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .RollCNON {
+        position: relative;
+        left: 400px;
+    }
+
+    .EnrollCNON {
+        position: relative;
+        left: 420px;
+    }
+
+    .data1Non {
+        margin-top: 1px;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .resDateNon {
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        font-weight: bold;
+    }
+
+    .dataNon {
+        position: absolute;
+        top: 180px;
+        left: 185px;
+        font-weight: bold;
+    }
+
+    .sub-dataNon {
+        position: absolute;
+        left: 450px;
+    }
+
+    .mark-tableNon {
+        position: absolute;
+        top: 300px;
+        left: 18px;
+        width: 101% !important;
+        font-family: Arial;
+        font-size: 8px;
+        padding: 3px 2px;
+        line-height:1.5;
+    }
+
+    .mark-table2Non {
+        position: absolute;
+        bottom: 240px;
+        left: 18px;
+        width: 101% !important;
+        font-family: Arial;
+        font-size: 10px;
+        padding: 3px 2px;
+        text-align: center;
+        line-height: 1;
+    }
+    .QClassNon {
+        font-size: 10px;
+        line-height: 1;
+    }
+    .BPR {
+        position: absolute;
+        top: 110px;
+        left: 265px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        line-height: 28px;
+    }
+
+    .set-radius-zero {
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .content-wrapper {
+        margin-top: 40px;
+        min-height: 800px;
+        padding-bottom: 90px;
+    }
+
+    .header-line {
+        font-weight: 900;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #eeeeee;
+        text-transform: uppercase;
+    }
+
+    .pad-botm {
+        padding-bottom: 30px;
+    }
+
+
+    /* =============================================================
+   NAVBAR & MENU STYLES
+ ============================================================ */
+
+    .right-div {
+        float: right;
+        padding: 20px;
+    }
+
+    #menu-top a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 15px 10px 15px 10px;
+        font-family: sans-serif, Helvetica, Tahoma, Arial;
+    }
+
+    .menu-section {
+        background-color: #f7f7f7;
+        border-bottom: 5px solid #FF0000;
+        width: 100%
+    }
+
+    .menu-top-active {
+        background-color: #fff;
+    }
+
+    .navbar-inverse {
+        background-color: #FFF;
+        border-color: rgba(155, 153, 153, 0.23);
+    }
+
+    .navbar {
+        min-height: 90px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: transparent;
+    }
+
+    .navbar-toggle {
+        background-color: black;
+        border: 1px solid black;
+    }
+
+    /* =============================================================
+   DASHBOARD STYLES
+ ============================================================ */
+
+    .img-comments {
+        border: 3px double #e1e1e1;
+        height: 60px;
+    }
+
+    .chat-widget-main {
+        max-height: 330px;
+        overflow: auto;
+    }
+
+    .slide-bdr {
+        border: 5px solid #FF0000;
+    }
+
+    .chat-widget-left:after {
+        top: 100%;
+        left: 10%;
+        border: solid transparent;
+        content: " ";
+        position: absolute;
+        border-top-color: #F70E62;
+        border-width: 15px;
+        margin-left: -15px;
+    }
+
+    .chat-widget-left {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: relative;
+        border: 1px solid #F70E62;
+        font-size: 12px;
+    }
+
+    .chat-widget-right:after {
+        top: 100%;
+        right: 10%;
+        border: solid transparent;
+        content: " ";
+        position: absolute;
+        border-top-color: #5AA8CC;
+        border-width: 15px;
+        margin-left: -15px;
+    }
+
+    .chat-widget-right {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: relative;
+        border: 1px solid #5AA8CC;
+        font-size: 12px;
+    }
+
+    .chat-widget-name-left {
+        color: #808080;
+        margin-top: 30px;
+        margin-left: 60px;
+        text-align: left;
+    }
+
+    .img-left-chat {
+        border: 3px double #e1e1e1;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .img-right-chat {
+        border: 3px double #e1e1e1;
+        float: right;
+        margin-left: 30px;
+    }
+
+    .chat-widget-main img-right {
+        border: 3px double #e1e1e1;
+        float: left;
+    }
+
+    .chat-widget-name-left h4 {
+        font-weight: normal;
+        font-size: 11px;
+    }
+
+    .chat-widget-name-left h5 {
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    .chat-widget-name-right h4 {
+        font-weight: normal;
+        font-size: 11px;
+    }
+
+    .chat-widget-name-right h5 {
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    .chat-widget-name-right {
+        color: #808080;
+        margin-top: 40px;
+        margin-right: 60px;
+        text-align: right;
+    }
+
+    .recent-users-sec img {
+        max-height: 80px;
+        margin: 15px;
+    }
+
+    .back-widget-set {
+        background-color: transparent;
+    }
+
+    /* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+    .footer-section {
+        padding: 25px 50px 25px 50px;
+        color: #000;
+        font-size: 13px;
+        background-color: #f7f7f7;
+        text-align: right;
+        border-top: 5px solid #FF0000;
+    }
+
+    .footer-section a, .footer-section a:hover {
+        color: #000;
+    }
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .ContentButton {
+        color: #fff !important;
+        background-color: #0fb788;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 8px;
+        font-weight: 100;
+        padding: 1px 10px;
+    }
+
+    table th {
+        font-size: 5px !important;
+        line-height: 1.2
+    }
+
+    #CaptchaImage {
+        height: 30px;
+    }
+    .marksheetNAG {
+        height: 495px !important;
+    }
+
+    .marksheetBACK {
+        height: 495px !important;
+    }
+
+    .printtable {
+        border-collapse: collapse;
+        font-size: 7px;
+    }
+
+    .sess {
+        position: absolute;
+        top: 21px;
+        left: 301px;
+        font-weight: bold;
+        font-size: 5px;
+    }
+
+    .year {
+        top: 40px !important;
+        left: 148px !important;
+        font-size: 6px !important;
+    }
+
+    .data {
+        top: 67px !important;
+        left: 86px !important;
+        font-size: 7px !important;
+        line-height: 1.6;
+    }
+
+    .data1 {
+        margin-top: 0px !important;
+        font-size: 7px !important;
+    }
+
+    .sub-data {
+        left: 200px !important;
+    }
+
+    .dataCNAG {
+        position: absolute;
+        top: 61px;
+        left: 5px;
+        font-size: 7px !important;
+        font-weight: bold;
+        line-height: 0.5;
+    }
+
+    .data2NAG {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 7px !important;
+        font-style: italic;
+    }
+
+    .RollCNAG {
+        position: relative;
+        left: 170px;
+    }
+
+    .EnrollCNAG {
+        position: relative;
+        left: 182px;
+    }
+
+    .mark-table {
+        top: 118px !important;
+        left: 13px !important;
+        font-size: 6px !important;
+        padding: 1.3px !important;
+        line-height: 1.7;
+        width: 92%;
+    }
+
+        .mark-table td {
+            font-size: 4px !important;
+        }
+
+    table td {
+        padding: 0.2px !important;
+        font-size: 7px !important;
+    }
+
+    .mark-table2 {
+        top: 379px !important;
+        left: 27px !important;
+        font-size: 4px !important;
+        line-height: 1.5;
+    }
+
+        .mark-table2 td {
+            font-size: 4px !important;
+        }
+
+    .marksheetNonNEP {
+        height: 495px !important;
+    }
+
+    .sessNon {
+        position: absolute;
+        top: 22px;
+        left: 302px;
+        font-weight: bold;
+        font-size: 5px;
+    }
+
+    .yearNon {
+        top: 30px !important;
+        left: 148px !important;
+        font-size: 6px !important;
+    }
+
+    .dataNon {
+        top: 67px !important;
+        left: 84px !important;
+        font-size: 7px !important;
+        line-height: 1.7;
+    }
+
+    .data1Non {
+        margin-top: 0px !important;
+        font-size: 7px !important;
+    }
+
+    .sub-dataNon {
+        left: 200px !important;
+    }
+
+    .mark-tableNon {
+        top: 130px !important;
+        left: 18px !important;
+        font-size: 4px !important;
+        padding: 1.3px !important;
+        line-height: 2.0;
+        width: 92%;
+    }
+
+    .dataCNON {
+        position: absolute;
+        top: 61px;
+        left: 5px;
+        font-size: 7px !important;
+        font-weight: bold;
+        line-height: 0.6;
+    }
+
+    .data2NON {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 7px !important;
+        font-style: italic;
+    }
+
+    .RollCNON {
+        position: relative;
+        left: 170px;
+    }
+
+    .EnrollCNON {
+        position: relative;
+        left: 181px;
+    }
+
+    .mark-tableNon td {
+        font-size: 4px !important;
+    }
+
+    .mark-table2Non {
+        top: 340px !important;
+        left: 27px !important;
+        font-size: 6px !important;
+        line-height: 1.5;
+    }
+
+        .mark-table2Non td {
+            font-size: 4px !important;
+        }
+
+    .marksheetNAGPG {
+        height: 495px !important;
+    }
+
+    .sessPG {
+        position: absolute;
+        top: 22px;
+        left: 300px;
+        font-weight: bold;
+        font-size: 5px;
+    }
+
+    .yearPG {
+        top: 32px !important;
+        left: 160px !important;
+        font-size: 6px !important;
+    }
+
+    .dataPG {
+        top: 72px !important;
+        left: 84px !important;
+        font-size: 7px !important;
+        line-height: 1.6;
+    }
+
+    .sub-dataPG {
+        left: 200px !important;
+    }
+
+    .dataCPG {
+        top: 66px !important;
+        left: 3px;
+        font-size: 7px !important;
+        font-weight: bold;
+        line-height: 0.6;
+    }
+
+    .data2 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 7px !important;
+        font-style: italic;
+    }
+
+    .RollCPG {
+        position: relative;
+        left: 170px;
+    }
+
+    .EnrollCPG {
+        position: relative;
+        left: 182px;
+    }
+
+    .mark-tablePG {
+        top: 122px !important;
+        left: 13px !important;
+        font-size: 4px !important;
+        padding: 1.3px !important;
+        line-height: 1.5;
+        width: 92%;
+    }
+
+    .mark-tablePG td {
+        font-size: 4px !important;
+    }
+
+    .mark-table2PG {
+        top: 379px !important;
+        left: 27px !important;
+        font-size: 4px !important;
+        line-height: 1.3;
+    }
+
+    .mark-table2PG td {
+        font-size: 4px !important;
+    }
+
+    .crdvalue {
+        position: absolute;
+        bottom: 41px;
+        left: 82px;
+        font-weight: bold;
+        font-size: 5px;
+    }
+
+    .BPR {
+        position: absolute;
+        top: 44px;
+        left: 146px;
+        font-weight: bold;
+        font-size: 6px;
+    }
+
+    .resDate {
+        position: absolute;
+        bottom: -10px;
+        left: 10px;
+        font-weight: bold;
+        font-size: 7px;
+    }
+
+    .resDateNon {
+        position: absolute;
+        bottom: -8px;
+        left: 9px;
+        font-weight: bold;
+        font-size: 7px;
+    }
+
+    .resDatePG {
+        position: absolute;
+        bottom: -9px;
+        left: 8px;
+        font-weight: bold;
+        font-size: 6px;
+    }
+    .noteNEP {
+        position: absolute;
+        bottom: 16px;
+        left: 8px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 7px;
+        line-height: 1.2;
+    }
+    .btn {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+    .marksheetNAG {
+        background-image: url(/Content/Img/CommonMks.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1700px;
+        position: relative;
+    }
+
+    .dataCNAG {
+        position: absolute;
+        top: 245px;
+        left: 35px;
+        font-weight: bold;
+        line-height: 2.1;
+    }
+
+    .data2NAG {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .RollCNAG {
+        position: relative;
+        left: 645px;
+    }
+
+    .EnrollCNAG {
+        position: relative;
+        left: 672px;
+    }
+
+    .marksheetBACK {
+        background-image: url(/Content/Img/bgBACK.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1700px;
+        position: relative;
+    }
+
+    .marksheetNAGPG {
+        background-image: url(/Content/Img/CommonMks.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1735px;
+        position: relative;
+    }
+
+    .dataCPG {
+        position: absolute;
+        top: 245px;
+        left: 50px;
+        font-weight: bold;
+    }
+
+    .data2 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .RollCPG {
+        position: relative;
+        left: 655px;
+    }
+
+    .EnrollCPG {
+        position: relative;
+        left: 680px;
+    }
+
+    .sessPG {
+        position: absolute;
+        top: 110px;
+        left: 1050px;
+        font-weight: bold;
+    }
+
+    .yearPG {
+        position: absolute;
+        top: 142px;
+        left: 560px;
+        font-weight: bold;
+    }
+
+    .dataPG {
+        position: absolute;
+        top: 245px;
+        left: 267px;
+        font-weight: bold;
+    }
+
+    .sub-dataPG {
+        position: absolute;
+        left: 690px;
+    }
+
+    .mark-tablePG {
+        position: absolute;
+        top: 418px;
+        left: 53px;
+        width: 90%;
+    }
+
+    .data1 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 2.1;
+    }
+
+    .marksheetNonNEP {
+        background-image: url(/Content/Img/CommonMks.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1700px;
+        position: relative;
+    }
+
+    .sessNon {
+        position: absolute;
+        top: 104px;
+        left: 1028px;
+        font-weight: bold;
+    }
+
+    .yearNon {
+        position: absolute;
+        top: 185px;
+        left: 510px;
+        font-weight: bold;
+    }
+    .dataCNON {
+        position: absolute;
+        top: 241px;
+        left: 50px;
+        font-weight: bold;
+    }
+
+    .data2NON {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .RollCNON {
+        position: relative;
+        left: 640px;
+    }
+
+    .EnrollCNON {
+        position: relative;
+        left: 660px;
+    }
+    .dataNon {
+        position: absolute;
+        top: 238px;
+        left: 220px;
+        font-weight: bold;
+    }
+
+    .data1Non {
+        margin-top: 11px;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .sub-dataNon {
+        position: absolute;
+        left: 705px;
+    }
+
+    .mark-tableNon {
+        position: absolute;
+        top: 409px;
+        left: 57px;
+        width: 92%;
+    }
+
+    .sess {
+        position: absolute;
+        top: 105px;
+        left: 1032px;
+        font-weight: bold;
+    }
+
+    .year {
+        position: absolute;
+        top: 187px;
+        left: 484px;
+        font-weight: bold;
+    }
+
+    .data {
+        position: absolute;
+        top: 243px;
+        left: 262px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .sub-data {
+        position: absolute;
+        left: 674px;
+    }
+
+    .data1 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .mark-table {
+        position: absolute;
+        top: 418px;
+        left: 110px;
+        width: 82%;
+    }
+    .BPR {
+        position: absolute;
+        top: 187px;
+        left: 490px;
+        font-weight: bold;
+    }   
+}

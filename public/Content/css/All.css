@@ -1,0 +1,274 @@
+body { margin:0px;font-family: Lucida Fax,Georgia,Arial,Tahoma; color:#000000; font-size:13px;}
+.heading
+{
+	font-family: "Lucida Fax", Agency FB, monospace;
+	background-color:#20B2AA;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+  background-image: url(../Images/images.jpg);
+	
+}
+.link
+{
+	 color:#0000FF;
+	 font-family:Lucida Fax;
+	 font-size:14px;
+	 text-decoration:none;
+}
+.link:hover
+{
+	color:#DC143C;
+	text-decoration:underline;
+}
+a:hover
+{
+	color:#DC143C;
+	text-decoration:underline;
+}
+.lnkchallan
+{
+	
+	 color:#0000FF;
+	 font-family:Tahoma;
+	 font:15px;
+	 text-decoration:none;
+}
+.chln_box
+{
+	border:solid 1px #000000;
+}
+.statusapp
+{
+ background-color:#A52A2A;
+ height:20px;	
+}
+.modalBackground
+{
+background-color: Gray;
+filter: alpha(opacity=80);
+opacity: 0.8;
+z-index: 10000;
+}
+ #txtDate
+        {
+            background-image: url(Images/calender.png);
+            background-repeat: no-repeat;
+            padding-left: 25px;
+        }
+    .txtbox
+    {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:Tahoma;
+    font-size:16px;
+   }
+.txtupper
+{
+    text-transform:uppercase;
+}
+.grd
+{
+     color:#0000FF;
+     font-family:Cambria;
+     font-size:15px;
+     text-decoration:none;
+}
+.grd:hover
+{
+     color:#DC143C;
+     font-family:Cambria;
+}
+.button_example{
+border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-top: 4px solid #FFD500;
+    border-bottom: 10px solid #FFD500;
+    -webkit-box-shadow: #B4B5B5 0px 1px 1px;-moz-box-shadow: #B4B5B5 0px 1px 1px; box-shadow: #B4B5B5 0px 1px 1px;-webkit-border-radius: 0px 0px -1px -1px;-moz-border-radius: 0px 0px -1px -1px;border-radius: 0px 0px -1px -1px;font-size:22px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: 2px 2px 0 rgba(0,0,0,0.3);font-weight:bold; color: #E8ED9F;
+    background-color: #3093c7; background-image: linear-gradient(to bottom, #3093c7, #1c5a85);
+ }
+
+.button_example:hover
+{
+   
+ border-left: 0px solid #819BCB;
+    border-right: 0px solid #819BCB;
+    border-top: 4px solid #FCA6FF;
+    border-bottom: 10px solid #FCA6FF;
+    background-color: #26759e; background-image: linear-gradient(to bottom, #26759e, #133d5b);
+ }
+ .butn {
+  background: #3491d9;
+  background-image: -webkit-linear-gradient(top, #3491d9, #2a4252);
+  background-image: -moz-linear-gradient(top, #3491d9, #2a4252);
+  background-image: -ms-linear-gradient(top, #3491d9, #2a4252);
+  background-image: -o-linear-gradient(top, #3491d9, #2a4252);
+  background-image: linear-gradient(to bottom, #3491d9, #2a4252);
+  font-family:Verdana;
+  color: #FFFFFF;
+  font-size: 15px;
+  height:32px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #fc3cd6;
+  background-image: -webkit-linear-gradient(top, #fc3cd6, #1592e6);
+  background-image: -moz-linear-gradient(top, #fc3cd6, #1592e6);
+  background-image: -ms-linear-gradient(top, #fc3cd6, #1592e6);
+  background-image: -o-linear-gradient(top, #fc3cd6, #1592e6);
+  background-image: linear-gradient(to bottom, #fc3cd6, #1592e6);
+  text-decoration: none;
+}
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.tr1
+{
+    height:22px;
+    background-color:#FFFFFF;
+}
+.tr2
+{
+    height:22px;
+    background-color:#FFFFFF;
+}
+
+.calender
+{
+    width:200px;
+    background-color:#2E8B57;
+    color:#FFFFFF;
+    font-family:Cambria;
+    font-size:16px;
+}
+ .Wait
+        {
+            position: fixed;
+            z-index: 999;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            background-color: Black;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+            -moz-opacity: 0.8;
+            color:#FF0000;
+        }
+        .center
+        {
+            z-index: 1000;
+            margin: 300px auto;
+            padding: 10px;
+            width: 130px;
+            border-radius: 10px;
+            filter: alpha(opacity=100);
+            opacity: 1;
+            -moz-opacity: 1;
+              color:#FF0000;
+        }
+         .Fontfillcaptcha
+        {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:Tahoma;
+        }
+.Fontfill {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    text-transform: uppercase;
+}
+.Linkasbutton
+{
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius:10px;
+}
+div.ex1 {
+    width: 100%;
+    height: 100px;
+    overflow: scroll;
+    background-color: #F5F5F5;
+}
+
+.visitor-counter-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Styling the counter box */
+.counter-box {
+    background: linear-gradient(135deg, #0fb788, #00a07b);
+    padding: 0px 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title for the visitor counter */
+.counter-title {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+/* Styling the visitor count number */
+.counter-number {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.captcha-box {
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
