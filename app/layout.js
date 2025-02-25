@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
-import TurnstileWrapper from "@/components/turnstileWrapper";
+// import TurnstileWrapper from "@/components/turnstileWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
       </Head>
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      <TurnstileWrapper> 
+      {/* <TurnstileWrapper>  */}
           {children}
-        </TurnstileWrapper>
+        {/* </TurnstileWrapper> */}
       </body>
     </html>
   );
