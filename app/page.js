@@ -44,17 +44,15 @@ export default function Home() {
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
             <link href="/Content/css/font-awesome.css" rel="stylesheet" />
             <link href="/Content/css/All.css" rel="stylesheet" />
-            <link href="/Content/css/style.css?v=2" rel="stylesheet" />
-            {/* <!-- Add this in the head or before closing body tag --> */}
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <link href="/Content/css/style.css" rel="stylesheet" />
 
             <header>
 
                 <div className="navbar navbar-inverse set-radius-zero" style={{ backgroundColor: "white" }}>
                     <div className="container">
-                        <div className="row flex justify-center">
+                        <div className="row justify-content-center">
                             <div className="col-md-12 col-sm-10">
-                                <div className="col-md-2 flex justify-center mt-2">
+                                <div className="col-md-2 justify-content-center mt-2">
                                     <img alt="CCSU" src="/Content/Img/Logo.png" style={{ height: "100px" }} />
                                 </div>
                                 <div className="col-md-8 text-center" style={{ fontSize: "20px" }}>
@@ -68,8 +66,6 @@ export default function Home() {
                     </div>
                 </div>
             </header>
-
-            {/* <Header/> */}
 
             <div className="container body-content">
                 <style>
@@ -90,39 +86,9 @@ export default function Home() {
                             </div>
                             <div className="col-md-12">
                                 <div className="form-group" style={{ textAlign: "center" }}>
-                                    <input type="number" className="border-solid px-1 border rounded-sm  border-black" value={rollNo} id="roll" name="roll" onChange={(e) => setRollNo(e.target.value)} style={{ appearance: "textfield" }} onWheel={(e) => e.target.blur()} />
+                                    <input type="number" className="border border-dark rounded-sm px-1" value={rollNo} id="roll" name="roll" onChange={(e) => setRollNo(e.target.value)} style={{ appearance: "textfield" }} onWheel={(e) => e.target.blur()} />
                                 </div>
                             </div>
-
-                            {/* <div
-                                className="col-md-12"
-                                style={{ verticalAlign: "middle", textAlign: "center", marginTop: "-15px" }}
-                            >
-                                <br />
-                                <img id="CaptchaImage"
-                                    //   src={`/DefaultCaptcha/Generate?t=${captcha}`} 
-                                    alt="Captcha" />
-                                <input id="CaptchaDeText" name="CaptchaDeText" type="hidden"
-                                //   value={captcha} 
-                                />
-                                <br />
-                                <a href="#CaptchaImage"
-                                    //   onClick={refreshCaptcha}
-                                    style={{ cursor: "pointer" }}>
-                                    Refresh
-                                </a>
-                                <br />
-                                Input symbols
-                                <br />
-                                <input
-                                    autoComplete="off"
-                                    autoCorrect="off"
-                                    id="CaptchaInputText"
-                                    name="CaptchaInputText"
-                                    type="text"
-                                />
-                                <br />
-                            </div> */}
 
                             <div className="col-md-12" style={{ verticalAlign: "middle", textAlign: "center" }}>
                                 <span style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
@@ -141,7 +107,7 @@ export default function Home() {
                                 </span>
                             </div>
                             <br />
-                            <hr />
+                            {/* <hr /> */}
 
                             {/* student data section fetch on main site for view */}
 
@@ -246,7 +212,7 @@ export default function Home() {
                         </div>
                     </div>
                 </form>
-                <hr />
+                {/* <hr /> */}
                 <br />
                 <footer>
                     <p>© 2025 - Chaudhary Charan Singh University, Meerut. All Rights Reserved.(379)</p>

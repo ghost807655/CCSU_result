@@ -53,13 +53,10 @@ export default function MarksheetPage({ params }) {
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Marksheet</title>
-      <link rel="stylesheet" href="/Content/css/aac.css" />
-      <link rel="stylesheet" href="/Content/css/abc.css" />
-      <link rel="stylesheet" href="/Content/css/aab.css" />
 
-      <div className="container text-center my-3 flex gap-1 justify-center">
+      <div className="container text-center my-3 d-flex justify-content-center gap-1">
         <input type="button" className="ContentButton noprint" value="Print" onClick={() => window.print()} />
-        <input type="button" className="ContentButton noprint" value="Back" onClick={() => window.history.back()} />
+        <input type="button" className="ContentButton noprint" value="Back" onClick={() => window.close()} />
       </div>
       <div className="container text-center marksheetNAGPG"></div>
     </>
@@ -69,14 +66,11 @@ export default function MarksheetPage({ params }) {
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marksheet</title>
-    <link rel="stylesheet" href="/Content/css/aac.css" />
-    <link rel="stylesheet" href="/Content/css/abc.css" />
-    <link rel="stylesheet" href="/Content/css/aab.css" />
 
     <section className="container-fluid">
-      <div className="container text-center my-3 flex gap-1 justify-center">
+      <div className="container text-center my-3 d-flex justify-content-center gap-1">
         <input type="button" className="ContentButton noprint" value="Print" onClick={() => window.print()} />
-        <input type="button" className="ContentButton noprint" value="Back" onClick={() => window.history.back()} />
+        <input type="button" className="ContentButton noprint" value="Back" onClick={() => window.close()} />
       </div>
 
       <div className="container text-center marksheetNAGPG">

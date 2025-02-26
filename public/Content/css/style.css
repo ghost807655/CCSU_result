@@ -78,6 +78,12 @@
 }
 .BPR {
     position: absolute;
+    top: 125px;
+    left: 450px;
+    font-weight: bold;
+}
+.BPREX {
+    position: absolute;
     top: 170px;
     left: 450px;
     font-weight: bold;
@@ -116,8 +122,11 @@
 .yearNon {
     position: absolute;
     top: 130px;
-    left: 420px;
+    left: 50%;
     font-weight: bold;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
 }
 
 .sessNon {
@@ -272,6 +281,15 @@
     left: 584px;
 }
 
+.mark-tableBack {
+    position: absolute;
+    top: 370px;
+    left: 110px;
+    width: 82%;
+    font-size: 12px;
+    line-height: 1.5
+}
+
 .mark-table {
     position: absolute;
     top: 370px;
@@ -379,6 +397,21 @@
         background-size: 105%; /* Reduce width to 90% of the container */
     }
 
+    .mark-tableBack {
+        position: absolute;
+        top: 240px;
+        left: 16px !important;
+        width: 100% !important;
+        font-family: Arial;
+        font-size: 10px;
+        padding: 0px 0px;
+        line-height: 3.0;
+    }
+
+    .mark-tableBack td {
+        font-size : 15px;
+    }
+
     .mark-table {
         position: absolute;
         top: 240px;
@@ -426,7 +459,7 @@
         font-family: Arial;
         font-size: 8px;
         padding: 3px 2px;
-        line-height:2.0;
+        line-height:1.5;
     }
 
     .pgPrint {
@@ -601,7 +634,10 @@
     .yearNon {
         position: absolute;
         top: 95px;
-        left: 230px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        text-align: center;
         font-weight: bold;
     }
 
@@ -689,6 +725,14 @@
         line-height: 1;
     }
     .BPR {
+        position: absolute;
+        top: 75px;
+        left: 265px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .BPREX {
         position: absolute;
         top: 110px;
         left: 265px;
@@ -1002,6 +1046,14 @@
         left: 182px;
     }
 
+    .mark-tableBack {
+        top: 118px !important;
+        left: 13px !important;
+        font-size: 6px !important;
+        padding: 1.3px !important;
+        line-height: 1.7;
+        width: 92%;
+    }
     .mark-table {
         top: 118px !important;
         left: 13px !important;
@@ -1045,7 +1097,10 @@
 
     .yearNon {
         top: 30px !important;
-        left: 148px !important;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        text-align: center;
         font-size: 6px !important;
     }
 
@@ -1202,6 +1257,13 @@
     }
 
     .BPR {
+        position: absolute;
+        top: 30px;
+        left: 146px;
+        font-weight: bold;
+        font-size: 6px;
+    }
+    .BPREX {
         position: absolute;
         top: 44px;
         left: 146px;
@@ -1382,7 +1444,10 @@
     .yearNon {
         position: absolute;
         top: 185px;
-        left: 510px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        text-align: center;
         font-weight: bold;
     }
     .dataCNON {
@@ -1465,6 +1530,12 @@
         text-align: left;
         font-size: 15px;
     }
+    .mark-tableBack {
+        position: absolute;
+        top: 418px;
+        left: 110px;
+        width: 82%;
+    }
 
     .mark-table {
         position: absolute;
@@ -1474,8 +1545,14 @@
     }
     .BPR {
         position: absolute;
+        top: 140px;
+        left: 490px;
+        font-weight: bold;
+    }
+    .BPREX {
+        position: absolute;
         top: 187px;
         left: 490px;
         font-weight: bold;
-    }   
+    } 
 }

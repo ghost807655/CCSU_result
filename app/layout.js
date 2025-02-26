@@ -1,7 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
-// import TurnstileWrapper from "@/components/turnstileWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,11 +19,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta httpEquiv="origin-trial" content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Search Results - Result</title>
-      </Head>
+      <head>
+        <link href="/Content/css/bootstrapv5/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/Content/css/style.css" />
+        <link rel="stylesheet" href="/Content/css/printbba.css" />
+      </head>
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       {/* <TurnstileWrapper>  */}

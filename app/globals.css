@@ -1,14 +1,9 @@
 @tailwind base;
-@tailwind components;
+/* @tailwind components; */
 @tailwind utilities;
-
-/* body{
-    padding: 50px;
-} */
 
 .btn{
     background-color: #0fb788;
-    /* font-size: x-small; */
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -18,7 +13,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 input[type="number"] {
-  -moz-appearance: textfield; /* for firefox */
+  -moz-appearance: textfield
 }
 
 .sem div{
