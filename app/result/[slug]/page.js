@@ -154,20 +154,20 @@ export default function MarksheetPage({ params }) {
                       <th>PREV.CRD.</th>
                       <th>CURR.CRD</th>
                       <th>G.TOT.
-                        {/* <br> */}
+                        <br/>
                         CRD.</th>
                       <th>
                         PREV.GRD.
-                        {/* <br> */}
+                        <br/>
                         VAL
                       </th>
                       <th>
                         CURR.GRD.
-                        {/* <br> */}
+                        <br/>
                         VAL
                       </th>
                       <th>G.TOT.GRD.
-                        {/* <br> */}
+                        <br/>
                         VAL.</th>
                       <th>S.G.P.A</th>
                       <th>C.G.P.A.</th>
