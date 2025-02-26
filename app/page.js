@@ -7,11 +7,13 @@ export default function Home() {
     const [studentData, setStudentData] = useState(null);
 
     const [error, setError] = useState('');
+    const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (rollNo.trim()) {
-            const fetchData = async () => {
+            setLoading(true);
+            try {
                 const response = await fetch(`/api/getStudentData?rollNo=${rollNo}`);
                 const data = await response.json();
 
@@ -23,14 +25,23 @@ export default function Home() {
                 } else {
                     setError(data.error);
                 }
-
-            };
-            fetchData()
+            } catch (err) {
+                setError("failed to fetch data");
+            } finally {
+                setLoading(false); // hide loading
+            }
         }
     };
 
     return (
         <>
+
+            {loading && (
+                <div className="loading-overlay">
+                    <div className="spinner"></div>
+                </div>
+            )}
+
             <meta httpEquiv="origin-trial"
                 content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9" />
             <meta charSet="utf-8" />
@@ -50,9 +61,9 @@ export default function Home() {
 
                 <div className="navbar navbar-inverse set-radius-zero" style={{ backgroundColor: "white" }}>
                     <div className="container">
-                        <div className="row d-flex justify-content-center">
+                        <div className="row justify-content-center">
                             <div className="col-md-12 col-sm-10">
-                                <div className="col-md-2 d-flex justify-content-center mt-2">
+                                <div className="col-md-2 justify-content-center mt-2">
                                     <img alt="CCSU" src="/Content/Img/Logo.png" style={{ height: "100px" }} />
                                 </div>
                                 <div className="col-md-8 text-center" style={{ fontSize: "20px" }}>

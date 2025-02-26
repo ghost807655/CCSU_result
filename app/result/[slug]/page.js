@@ -75,7 +75,7 @@ export default function MarksheetPage({ params }) {
 
       <div className="container text-center marksheetNAGPG">
         <div className="sessPG">APR-2025</div>
-        <div className="yearPG">Class/Course - B.Sc. SEM-II</div>
+        <div className="yearPG">Class/Course - B.Sc. SEM-III</div>
         <div className="dataCPG">
           <div className="data2">
             <span className="">Candidate's Name : </span>
