@@ -50,9 +50,9 @@ export default function Home() {
 
                 <div className="navbar navbar-inverse set-radius-zero" style={{ backgroundColor: "white" }}>
                     <div className="container">
-                        <div className="row justify-content-center">
+                        <div className="row d-flex justify-content-center">
                             <div className="col-md-12 col-sm-10">
-                                <div className="col-md-2 justify-content-center mt-2">
+                                <div className="col-md-2 d-flex justify-content-center mt-2">
                                     <img alt="CCSU" src="/Content/Img/Logo.png" style={{ height: "100px" }} />
                                 </div>
                                 <div className="col-md-8 text-center" style={{ fontSize: "20px" }}>
