@@ -56,17 +56,13 @@ export default function MarksheetPage({ params }) {
 
       <div className="container text-center my-3 d-flex justify-content-center gap-1">
         <input type="button" className="ContentButton noprint" value="Print" onClick={() => window.print()} />
-        <input type="button" className="ContentButton noprint" value="Back" onClick={() => window.close()} />
+        <input type="button" className="ContentButton noprint" value="Back" onClick={() => window.history.back()} />
       </div>
       <div className="container text-center marksheetNAGPG"></div>
     </>
   }
 
   return <>
-    <meta charSet="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marksheet</title>
-
     <section className="container-fluid">
       <div className="container text-center my-3 d-flex justify-content-center gap-1">
         <input type="button" className="ContentButton noprint" value="Print" onClick={() => window.print()} />
@@ -148,20 +144,20 @@ export default function MarksheetPage({ params }) {
                       <th>PREV.CRD.</th>
                       <th>CURR.CRD</th>
                       <th>G.TOT.
-                        <br/>
+                        <br />
                         CRD.</th>
                       <th>
                         PREV.GRD.
-                        <br/>
+                        <br />
                         VAL
                       </th>
                       <th>
                         CURR.GRD.
-                        <br/>
+                        <br />
                         VAL
                       </th>
                       <th>G.TOT.GRD.
-                        <br/>
+                        <br />
                         VAL.</th>
                       <th>S.G.P.A</th>
                       <th>C.G.P.A.</th>
@@ -186,7 +182,6 @@ export default function MarksheetPage({ params }) {
             </tr>
           </tbody>
         </table>
-
 
         <div className="crdvalue">CRD. : CREDIT, GRD. : GRADE, GRD PTS. : GRADE POINTS, GRD VAL. : GRADE VALUE</div>
         <div className="noteNEP">Note: This is Computer generated marksheet. This does not require signature. In case of any discripency between the entries in the Marksheet issued &amp; in the university record then university record will be final.</div>

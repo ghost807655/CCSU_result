@@ -179,7 +179,7 @@ export default function Home() {
                                                     <tr style={{ fontSize: "14px" }}>
                                                         <td>
                                                             <a
-                                                                href={`/Results/PrintMarksheetNEP/I/${studentData.rollNumber}.html`}
+                                                                href={`/I/${studentData.rollNumber}.html`}
                                                                 style={{ textDecoration: "none" }}
                                                                 target="_blank"
                                                                 rel="noopener noreferrer"
@@ -191,7 +191,7 @@ export default function Home() {
                                                     <tr style={{ fontSize: "14px" }}>
                                                         <td>
                                                             <a
-                                                                href={`/Results/PrintMarksheetNEP/II/${studentData.rollNumber}.html`}
+                                                                href={`/II/${studentData.rollNumber}.html`}
                                                                 style={{ textDecoration: "none" }}
                                                                 target="_blank"
                                                                 rel="noopener noreferrer"
@@ -203,7 +203,7 @@ export default function Home() {
                                                     <tr style={{ fontSize: "14px" }}>
                                                         <td>
                                                             <a
-                                                                href={`/Result/PrintMarksheetNEP/III/${studentData.rollNumber}`}
+                                                                href={`/result/PrintMarksheetNEP/III/${studentData.rollNumber}`}
                                                                 style={{ textDecoration: "none" }}
                                                                 target="_blank"
                                                                 rel="noopener noreferrer"
