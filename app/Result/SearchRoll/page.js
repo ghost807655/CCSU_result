@@ -101,6 +101,10 @@ export default function Home() {
                                 </div>
                             </div>
 
+                            <div className="flex justify-center">
+                            <img alt="CCSU" src="/Content/Img/jock.jfif" style={{ height: "300px" }} />
+                            </div>
+
                             <div className="col-md-12" style={{ verticalAlign: "middle", textAlign: "center" }}>
                                 <span style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
                                     <button type="submit" name="buttonClicked" value="NAG" className="btn">
@@ -124,100 +128,104 @@ export default function Home() {
 
 
                             {studentData ?
+                                // <>
+                                //     <h3 style={{ textAlign: "center", paddingTop: "15px" }}>Student Result</h3>
+                                //     <div id="divmain">
+                                //         <div>
+                                //             <div style={{ textAlign: "center", fontSize: "12px" }}>
+                                //                 <b>STATEMENT OF MARKS - EXAMINATION</b>
+                                //             </div>
+                                //             <table width="100%" style={{ fontSize: "12px" }}>
+                                //                 <tbody>
+                                //                     <tr>
+                                //                         <td width="20%">Course Name </td>
+                                //                         <td width="40%">
+                                //                             <b>- &nbsp; B.Sc. SEM-I </b>
+                                //                         </td>
+                                //                         <td align="right" width="20%">Roll Number</td>
+                                //                         <td width="20%">
+                                //                             <b> &nbsp;&nbsp; - &nbsp;{studentData.rollNumber}</b>
+                                //                         </td>
+                                //                     </tr>
+                                //                     <tr>
+                                //                         <td>Name</td>
+                                //                         <td>
+                                //                             <b>-&nbsp;&nbsp;{studentData.name}</b>
+                                //                         </td>
+                                //                         <td width="20%" align="right">Enrollment Number</td>
+                                //                         <td width="20%">
+                                //                             <b> &nbsp;&nbsp; - &nbsp;{studentData.enrollmentNo}</b>
+                                //                         </td>
+                                //                     </tr>
+                                //                     <tr>
+                                //                         <td>Father Name &nbsp;</td>
+                                //                         <td colSpan="3">
+                                //                             <b> - &nbsp; {studentData.fatherName}</b>
+                                //                         </td>
+                                //                     </tr>
+                                //                     <tr>
+                                //                         <td>Mother Name &nbsp;</td>
+                                //                         <td colSpan="3">
+                                //                             <b> - &nbsp; {studentData.motherName}</b>
+                                //                         </td>
+                                //                     </tr>
+                                //                     <tr>
+                                //                         <td>Institution's Name </td>
+                                //                         <td colSpan="3">
+                                //                             <b> - &nbsp; GOVT DEGREE COLLEGE, NOIDA</b>
+                                //                         </td>
+                                //                     </tr>
+                                //                 </tbody>
+                                //             </table>
+                                //             <hr />
+                                //             <table className="table table-bordered table-striped">
+                                //                 <tbody>
+                                //                     <tr style={{ fontSize: "14px" }}>
+                                //                         <td>
+                                //                             <a
+                                //                                 href={`/I/${studentData.rollNumber}.html`}
+                                //                                 style={{ textDecoration: "none" }}
+                                //                                 target="_blank"
+                                //                                 rel="noopener noreferrer"
+                                //                             >
+                                //                                 COURSE-B.Sc. SEM-I- (DEC-2023)
+                                //                             </a>
+                                //                         </td>
+                                //                     </tr>
+                                //                     <tr style={{ fontSize: "14px" }}>
+                                //                         <td>
+                                //                             <a
+                                //                                 href={`/II/${studentData.rollNumber}.html`}
+                                //                                 style={{ textDecoration: "none" }}
+                                //                                 target="_blank"
+                                //                                 rel="noopener noreferrer"
+                                //                             >
+                                //                                 COURSE-B.Sc. SEM-II- (JUN-2024)
+                                //                             </a>
+                                //                         </td>
+                                //                     </tr>
+                                //                     <tr style={{ fontSize: "14px" }}>
+                                //                         <td>
+                                //                             <a
+                                //                                 href={`/result/PrintMarksheetNEP/III/${studentData.rollNumber}`}
+                                //                                 style={{ textDecoration: "none" }}
+                                //                                 target="_blank"
+                                //                                 rel="noopener noreferrer"
+                                //                             >
+                                //                                 COURSE-B.Sc. SEM-III- (DEC-2024)
+                                //                             </a>
+                                //                         </td>
+                                //                     </tr>
+                                //                 </tbody>
+                                //             </table>
+                                //         </div>
+                                //     </div>
+                                // </> 
                                 <>
-                                    <h3 style={{ textAlign: "center", paddingTop: "15px" }}>Student Result</h3>
-                                    <div id="divmain">
-                                        <div>
-                                            <div style={{ textAlign: "center", fontSize: "12px" }}>
-                                                <b>STATEMENT OF MARKS - EXAMINATION</b>
-                                            </div>
-                                            <table width="100%" style={{ fontSize: "12px" }}>
-                                                <tbody>
-                                                    <tr>
-                                                        <td width="20%">Course Name </td>
-                                                        <td width="40%">
-                                                            <b>- &nbsp; B.Sc. SEM-I </b>
-                                                        </td>
-                                                        <td align="right" width="20%">Roll Number</td>
-                                                        <td width="20%">
-                                                            <b> &nbsp;&nbsp; - &nbsp;{studentData.rollNumber}</b>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Name</td>
-                                                        <td>
-                                                            <b>-&nbsp;&nbsp;{studentData.name}</b>
-                                                        </td>
-                                                        <td width="20%" align="right">Enrollment Number</td>
-                                                        <td width="20%">
-                                                            <b> &nbsp;&nbsp; - &nbsp;{studentData.enrollmentNo}</b>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Father Name &nbsp;</td>
-                                                        <td colSpan="3">
-                                                            <b> - &nbsp; {studentData.fatherName}</b>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Mother Name &nbsp;</td>
-                                                        <td colSpan="3">
-                                                            <b> - &nbsp; {studentData.motherName}</b>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Institution's Name </td>
-                                                        <td colSpan="3">
-                                                            <b> - &nbsp; GOVT DEGREE COLLEGE, NOIDA</b>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <hr />
-                                            <table className="table table-bordered table-striped">
-                                                <tbody>
-                                                    <tr style={{ fontSize: "14px" }}>
-                                                        <td>
-                                                            <a
-                                                                href={`/I/${studentData.rollNumber}.html`}
-                                                                style={{ textDecoration: "none" }}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                            >
-                                                                COURSE-B.Sc. SEM-I- (DEC-2023)
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr style={{ fontSize: "14px" }}>
-                                                        <td>
-                                                            <a
-                                                                href={`/II/${studentData.rollNumber}.html`}
-                                                                style={{ textDecoration: "none" }}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                            >
-                                                                COURSE-B.Sc. SEM-II- (JUN-2024)
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr style={{ fontSize: "14px" }}>
-                                                        <td>
-                                                            <a
-                                                                href={`/result/PrintMarksheetNEP/III/${studentData.rollNumber}`}
-                                                                style={{ textDecoration: "none" }}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                            >
-                                                                COURSE-B.Sc. SEM-III- (DEC-2024)
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </> :
-                                ""}
+                                <h2 className="mt-2 pt-5 flex justify-center mb-56"> 😂😂😂😂😂😂 HOLI HAPPY HOLI 😂😂😂😂😂😂</h2>
+                                </>
+                                :""
+                                }
 
 
                         </div>
@@ -227,6 +235,7 @@ export default function Home() {
                 <br />
                 <footer>
                     <p>© 2025 - Chaudhary Charan Singh University, Meerut. All Rights Reserved.(379)</p>
+                    <p className="text-black font-bold">This site maded by Vikesh & Abhishek ☠️☠️☠️☠️☠️😂😂(379)</p>
                 </footer>
             </div>
 
