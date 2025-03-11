@@ -3,7 +3,6 @@ import { configDotenv } from 'dotenv';
 
 configDotenv()
 
-// Connect to MongoDB
 const connectDB = async () => {
   if (mongoose.connections[0].readyState) {
     return;
@@ -11,7 +10,6 @@ const connectDB = async () => {
   await mongoose.connect(process.env.MONGODB_URL);
 };
 
-// Define the Student schema
 const resultSchema = new mongoose.Schema({
   name: { type: String, required: true },
     rollNumber: { type: String, required: true, unique: true },

@@ -37,16 +37,12 @@ export default function MarksheetPage({ params }) {
     }
   }, [slug]);
   const totalGrdVal = studentData.subjects.reduce((sum, sub) => sum + (sub.grdVal || 0), 0);
-  // check if any subject has grade "F"
   const hasFail = studentData.subjects.some((sub) => sub.grd === "F");
 
-  // determine result
   const result = hasFail ? "LATER" : "PASS";
 
-
-  // calculate sgpa and cgpa
   const sgpa = (totalGrdVal / 25).toFixed(2);
-  const cgpa = ((studentData.preGrd + totalGrdVal) / 71).toFixed(2); // assuming prev credits were 46
+  const cgpa = ((studentData.preGrd + totalGrdVal) / 71).toFixed(2);
 
   if (studentData.name == "") {
     return <>
